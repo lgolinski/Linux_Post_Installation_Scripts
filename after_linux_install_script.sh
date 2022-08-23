@@ -52,8 +52,7 @@ main_menu() {
                 run_mouse_menu
             ;;
 
-            $MENU_OPTION_KEYBOARD_COLOR)
-                
+            $MENU_OPTION_KEYBOARD_SETTINGS)
                 run_color_menu
             ;;
 
@@ -64,17 +63,7 @@ main_menu() {
     done
 }
 
-
-
-
-# make_sure_i_am_root;
-
-
-
-
 main_menu
-
-
 
 
 # 
@@ -97,8 +86,3 @@ main_menu
 
 # https://search.brave.com/search?q=zenity+checklist&source=web
 # https://help.gnome.org/users/zenity/stable/
-
-
-
-
-
